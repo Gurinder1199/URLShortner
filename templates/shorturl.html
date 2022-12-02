@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title %}Short URL{% endblock %}
+
+{% block content %}
+    <h1> <p style = "font-family:georgia,garamond,serif;font-size:24px;">
+         <i>Short URL:</i> <b>http://127.0.0.1:5000/{{short_url_display}}</b>
+      </p></h1>
+    <h2><p style = "font-family:georgia,garamond,serif;font-size:24px;"><i>Code:</i> <b>{{short_url_display}}</b></p></h2>
+    <a href="http://127.0.0.1:5000/">BACK TO HOME</a>
+{% endblock %}
